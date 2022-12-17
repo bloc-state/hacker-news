@@ -1,3 +1,10 @@
+# 1.0.0 (2022-12-17)
+
+
+### Features
+
+* initial commit ([3990d9d](https://github.com/bloc-state/hacker-news/commit/3990d9def025be64897143f02ce07dadcecf10ac))
+
 # 1.0.0 (2022-12-15)
 
 ### Features
