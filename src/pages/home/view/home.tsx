@@ -1,4 +1,4 @@
-import { Button, Modal, RadioChangeEvent } from "antd"
+import { Button, Modal, RadioChangeEvent, Space } from "antd"
 import { Radio } from "antd"
 import { PostPage } from "../../posts/view/posts"
 import { BlocProvider, useBloc } from "@bloc-state/react-bloc"
@@ -41,7 +41,7 @@ export const HomeView = () => {
     <>
       <PostPage />
       <section
-        style={{ position: "absolute", left: 0, bottom: 0, padding: "4rem" }}
+        style={{ position: "absolute", left: 0, bottom: 0, padding: "2rem" }}
       >
         <div style={{ padding: "1rem" }}>
           <Button type="primary" size="small" onClick={showModal}>
@@ -73,9 +73,11 @@ export const HomeView = () => {
           </p>
         </Modal>
         <Radio.Group onChange={onChange} value={transformer}>
-          <Radio value="concurrent">concurrent</Radio>
-          <Radio value="restartable">restartable</Radio>
-          <Radio value="sequential">sequential</Radio>
+          <Space direction="vertical">
+            <Radio value="concurrent">concurrent</Radio>
+            <Radio value="restartable">restartable</Radio>
+            <Radio value="sequential">sequential</Radio>
+          </Space>
         </Radio.Group>
       </section>
     </>
