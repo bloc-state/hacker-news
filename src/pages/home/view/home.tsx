@@ -69,7 +69,7 @@ export const HomeView = () => {
           <p>
             Clicking the next arrow will increment the id, which will create an event to fetch a new post for that id. 
             Because the response to the request is quick, a 1 second delay has been added to highlight the different event transformer 
-            effects. Quick repeatedly with each mode to see how they handle each new event. 
+            effects. Click repeatedly with each mode to see how they handle each new event. 
           </p>
         </Modal>
         <Radio.Group onChange={onChange} value={transformer}>
