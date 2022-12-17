@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bloc-state/hacker-news/compare/v1.0.1...v1.0.2) (2022-12-17)
+
+
+### Bug Fixes
+
+* **HomePage:** fixed grammar error in description ([2bd49cf](https://github.com/bloc-state/hacker-news/commit/2bd49cfec45816b03628d5dbe449ae6b9243594f))
+
 ## [1.0.1](https://github.com/bloc-state/hacker-news/compare/v1.0.0...v1.0.1) (2022-12-17)
 
 
