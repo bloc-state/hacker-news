@@ -25,7 +25,7 @@ export class PostBloc extends Bloc<PostEvent, PostState> {
   private transformer: PostTransformer | undefined
 
   constructor({ postRepository }: PostBlocProps) {
-    super(new PostState()) // start in loading state
+    super(new PostState())
 
     this.postRepository = postRepository
 
