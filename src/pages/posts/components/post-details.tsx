@@ -6,7 +6,6 @@ export function PostDetails() {
   const details = useBlocSelector(PostBloc, {
     selector: (data) => data.details,
 		suspendWhen: ( state ) => state.status === "loading",
-		suspend: true
   });
 
 
